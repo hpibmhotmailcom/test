@@ -14,8 +14,6 @@ https://www.youtube.com/watch?v=dPX1BiCXu8s
 
 https://www.youtube.com/watch?v=5wt-mUgT2KE
 
-https://www.youtube.com/watch?v=5wt-mUgT2KE
-
 river flow, canon C
 
 https://www.youtube.com/watch?v=hIRiV-KVyLY
