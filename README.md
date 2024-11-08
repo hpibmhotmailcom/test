@@ -38,3 +38,8 @@ https://www.youtube.com/watch?v=-uRZAgCGhCY&ab_channel=ThinkingWest
 top 10 food
 
 https://www.bbc.com/zhongwen/simp/science-43501164
+
+
+
+
+https://www.cut-the-knot.org/pythagoras/
