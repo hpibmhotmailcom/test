@@ -42,6 +42,6 @@ https://www.bbc.com/zhongwen/simp/science-43501164
 
 https://www.cut-the-knot.org/pythagoras/
 
-how to communicate,  0:21-9:50 , please check, it is real life.
+how to communicate,  0:21-8:50 , please check, it is real life.
 
 https://www.youtube.com/watch?v=xaLeKaiTs8w
