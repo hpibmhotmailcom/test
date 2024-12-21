@@ -56,4 +56,12 @@ https://www.youtube.com/watch?v=Ud5hMSBJT1w
 
 https://www.youtube.com/watch?v=MpB9UC-BOzs
 
+vector add,  subtraction 
 
+https://www.bilibili.com/video/BV1CM4y1r79H/?vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+https://www.youtube.com/watch?v=fKKimdjdEzQ
+
+https://www.youtube.com/watch?v=I-zuiKphp-0
+
+https://www.zhihu.com/question/594163048/answer/2972569633
