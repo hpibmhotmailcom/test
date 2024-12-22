@@ -65,3 +65,7 @@ https://www.youtube.com/watch?v=fKKimdjdEzQ
 https://www.youtube.com/watch?v=I-zuiKphp-0
 
 https://www.zhihu.com/question/594163048/answer/2972569633
+
+等边三角形中，求三等分线相交所成的线段长 
+
+https://www.sohu.com/a/547058299_120589180
