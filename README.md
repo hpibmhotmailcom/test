@@ -129,3 +129,15 @@ https://www.youtube.com/watch?v=R8xTngX_z3Y
 奥赛几何 第四十四讲-九点共圆定理及其推论
 
 https://www.youtube.com/watch?v=cfyLQf-izI4
+
+史上最入門的方式講解：到底什麽是量子？量子從何而來？| 超基礎、新人友好
+
+https://www.youtube.com/watch?v=LS72MctJoJQ
+
+量子故事会（1）经典物理学的未解之谜之一——氢原子光谱
+
+https://www.youtube.com/watch?v=CF1Mg9pVh8M&list=PLYtoePJQbGmiO08bS7xF78czdQy6gDw9Q
+
+讲解最透彻的《量子力学》视频
+
+https://www.youtube.com/watch?v=MzFQcvRpO6w&t=359s
