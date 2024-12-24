@@ -86,7 +86,7 @@ https://www.youtube.com/watch?v=31keevACOV0
 
 https://www.youtube.com/watch?v=eEiNep19W5U
 
-欧拉公式是怎么来的？欧拉的灵感从何而来？探索欧拉公式的由来
+欧拉公式是怎么来的？欧拉的灵感从何而来？探索欧拉公式的由来   caculation , many
 
 https://www.youtube.com/watch?v=7kB5ngGUOzA
 
@@ -101,4 +101,20 @@ https://www.youtube.com/watch?v=jdaT7M3Z-QM
 史上最通俗小學生都能聽懂的歐拉恆等式 e^iπ +1=0 | 雅桑了嗎
 
 https://www.youtube.com/watch?v=MRHa-gNZrSI
+
+【漫士数学】如何只用常数定义，最简单本质地理解欧拉公式？
+
+https://www.youtube.com/watch?v=Jw2l6Rn2ekQ
+
+获得e的本质：从自然常数e到微积分的y'=y    easy picture
+
+https://www.youtube.com/watch?v=geJ7TH1KsjM
+
+正弦定理 ( 三角函數 )
+
+https://www.youtube.com/watch?v=3XmK5PQhh5k&t=320s
+
+【證明】I 海龍公式
+
+https://www.youtube.com/watch?v=WEZ1iVIEwVU
 
