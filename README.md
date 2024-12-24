@@ -141,3 +141,11 @@ https://www.youtube.com/watch?v=CF1Mg9pVh8M&list=PLYtoePJQbGmiO08bS7xF78czdQy6gD
 讲解最透彻的《量子力学》视频
 
 https://www.youtube.com/watch?v=MzFQcvRpO6w&t=359s
+
+從光速到相對中的絕對：兩小時帶你看懂相對論
+
+https://www.youtube.com/watch?v=BczPA3BArKk
+
+宇宙邊緣是什麼樣的？被迫誕生的「暴漲理論」與多元宇宙
+
+https://www.youtube.com/watch?v=yzw0fz_mP8o
