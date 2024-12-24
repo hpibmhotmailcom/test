@@ -124,6 +124,8 @@ https://www.youtube.com/watch?v=tGwUxzyZaGs
 
 三角形内有一个神奇的九点圆，也叫欧拉圆九点圆
 
+https://baike.baidu.com/item/%E4%B9%9D%E7%82%B9%E5%9C%86/496016
+
 https://www.youtube.com/watch?v=R8xTngX_z3Y
 
 奥赛几何 第四十四讲-九点共圆定理及其推论
