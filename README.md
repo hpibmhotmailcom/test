@@ -66,6 +66,18 @@ https://www.youtube.com/watch?v=I-zuiKphp-0
 
 https://www.zhihu.com/question/594163048/answer/2972569633
 
+数学家伟大的接力赛，发现e！
+
+https://www.youtube.com/watch?v=M9SyEJUz0GI
+
+为什么对数是伟大的发明！
+
+https://www.youtube.com/watch?v=0RsbHJcHQ38
+
+什么是椭圆？这么简单的问题蕴含着如此美妙的数学乐趣，值得你深思     推导公式过程     动画圆锥切面
+
+https://www.youtube.com/watch?v=WBbYFv7yS28
+
 等边三角形中，求三等分线相交所成的线段长 
 
 https://www.sohu.com/a/547058299_120589180
@@ -131,6 +143,10 @@ https://www.youtube.com/watch?v=R8xTngX_z3Y
 奥赛几何 第四十四讲-九点共圆定理及其推论
 
 https://www.youtube.com/watch?v=cfyLQf-izI4
+
+【數學競賽】三角形的九點圓            so easy!!!
+
+https://www.youtube.com/watch?v=hWYoNwNmG4w
 
 史上最入門的方式講解：到底什麽是量子？量子從何而來？| 超基礎、新人友好
 
