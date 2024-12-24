@@ -118,3 +118,14 @@ https://www.youtube.com/watch?v=3XmK5PQhh5k&t=320s
 
 https://www.youtube.com/watch?v=WEZ1iVIEwVU
 
+三角函数，动画演示可视化数学
+
+https://www.youtube.com/watch?v=tGwUxzyZaGs
+
+三角形内有一个神奇的九点圆，也叫欧拉圆九点圆
+
+https://www.youtube.com/watch?v=R8xTngX_z3Y
+
+奥赛几何 第四十四讲-九点共圆定理及其推论
+
+https://www.youtube.com/watch?v=cfyLQf-izI4
