@@ -90,6 +90,10 @@ https://www.youtube.com/watch?v=etmtYmR3NSQ
 
 https://www.youtube.com/watch?v=eHhtRCZudpY
 
+初中几何动点最值问题，难度大，全军覆没，一招搞定
+
+https://www.youtube.com/watch?v=7abedoDUEZ0
+
 如何理解泰勒展开？它有何用途？高中生也能听懂的泰勒展开式
 
 https://www.youtube.com/watch?v=ViRvw2Hfto4
