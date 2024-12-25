@@ -82,6 +82,10 @@ https://www.youtube.com/watch?v=WBbYFv7yS28
 
 https://www.sohu.com/a/547058299_120589180
 
+动点最值问题之阿氏圆，经典题目，学会一题，掌握一类
+
+https://www.youtube.com/watch?v=etmtYmR3NSQ
+
 动点最值问题之胡不归，先构造角，再作垂线段
 
 https://www.youtube.com/watch?v=eHhtRCZudpY
