@@ -171,3 +171,7 @@ https://www.youtube.com/watch?v=BczPA3BArKk
 宇宙邊緣是什麼樣的？被迫誕生的「暴漲理論」與多元宇宙
 
 https://www.youtube.com/watch?v=yzw0fz_mP8o
+
+【初中生能看懂的微积分】入门篇
+
+https://www.youtube.com/watch?v=DujzjNYLheg&list=PLMIRAndzh-_WY2BoUnxctrXHXMBnQK3Ts
