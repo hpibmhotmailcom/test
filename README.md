@@ -100,6 +100,12 @@ https://www.youtube.com/watch?v=7abedoDUEZ0
 
 初中数学竞赛题，求四边形的面积，辅助线很巧妙
 
+https://www.youtube.com/watch?v=5_ZQkPtnHQA&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
+
+https://www.youtube.com/watch?v=rsvZ3m23RHY&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
+
+初中数学竞赛题，不会做辅助线？托勒密定理来帮忙
+
 https://www.youtube.com/watch?v=rsvZ3m23RHY&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
 
 如何理解泰勒展开？它有何用途？高中生也能听懂的泰勒展开式
