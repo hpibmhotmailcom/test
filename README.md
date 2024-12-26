@@ -144,6 +144,14 @@ https://www.youtube.com/watch?v=Jw2l6Rn2ekQ
 
 https://www.youtube.com/watch?v=geJ7TH1KsjM
 
+A Very Nice Geometry Problem | You should be able to solve this! | 3 Different Methods
+
+https://www.youtube.com/watch?v=zdehHjOAYBA
+
+Can you find the Radius of the circle? | (Triangle inscribed in a circle)
+
+https://www.youtube.com/watch?v=GSv0Kv3OA88
+
 正弦定理 ( 三角函數 )
 
 https://www.youtube.com/watch?v=3XmK5PQhh5k&t=320s
