@@ -152,6 +152,10 @@ Can you find the Radius of the circle? | (Triangle inscribed in a circle)
 
 https://www.youtube.com/watch?v=GSv0Kv3OA88
 
+Find the Area Challenge
+
+https://www.youtube.com/watch?v=33fEMHOeZ-0
+
 正弦定理 ( 三角函數 )
 
 https://www.youtube.com/watch?v=3XmK5PQhh5k&t=320s
