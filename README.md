@@ -78,6 +78,10 @@ https://www.youtube.com/watch?v=0RsbHJcHQ38
 
 https://www.youtube.com/watch?v=WBbYFv7yS28
 
+初中数学竞赛题，两个角没在一起，怎么求两角的和？
+
+https://www.youtube.com/watch?v=iUnHdoq-dlE&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
+
 等边三角形中，求三等分线相交所成的线段长 
 
 https://www.sohu.com/a/547058299_120589180
@@ -93,6 +97,10 @@ https://www.youtube.com/watch?v=eHhtRCZudpY
 初中几何动点最值问题，难度大，全军覆没，一招搞定
 
 https://www.youtube.com/watch?v=7abedoDUEZ0
+
+初中数学竞赛题，求四边形的面积，辅助线很巧妙
+
+https://www.youtube.com/watch?v=rsvZ3m23RHY&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
 
 如何理解泰勒展开？它有何用途？高中生也能听懂的泰勒展开式
 
