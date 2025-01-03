@@ -83,6 +83,10 @@ https://www.youtube.com/watch?v=0RsbHJcHQ38
 
 https://www.youtube.com/watch?v=WBbYFv7yS28
 
+长沙中考几何压轴，如何不用余弦定理求出对角线的长？
+
+https://www.youtube.com/watch?v=HaC6RyCIsrI
+
 初中数学竞赛题，两个角没在一起，怎么求两角的和？
 
 https://www.youtube.com/watch?v=iUnHdoq-dlE&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
