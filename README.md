@@ -149,6 +149,19 @@ https://www.youtube.com/watch?v=Jw2l6Rn2ekQ
 
 https://www.youtube.com/watch?v=geJ7TH1KsjM
 
+
+**Nike x Central Cee Tech Fleece Tracksuit**  
+
+- Size: Large Only  
+- Full Tracksuit: $270  
+- Jacket: $160
+- Pants: $110
+
+Limited availability. 
+
+Meetups at Fairview Mall. 
+
+
 A Very Nice Geometry Problem | You should be able to solve this! | 3 Different Methods
 
 https://www.youtube.com/watch?v=zdehHjOAYBA
