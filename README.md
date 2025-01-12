@@ -20,6 +20,7 @@ https://www.bilibili.com/video/BV1byhqe4E6Y?spm_id_from=333.788.recommend_more_v
 
 https://www.bilibili.com/video/BV1Ax421k7Rn/?vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
 
+###########################################################################################################
 
 piano oct 9  home
 
@@ -47,12 +48,16 @@ turkey
 
 https://www.youtube.com/watch?v=Y1ZAKcACoXM
 
+######################################################################################################
+
 function oct 10 office   
 https://www.bilibili.com/video/BV1QN4y1c7RQ/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
 
 https://www.bilibili.com/video/BV1VG4y1H7WB/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
 
 https://www.bilibili.com/video/BV1SK411G72L/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+#################################################################################################
 
 civilazation
 
@@ -62,12 +67,13 @@ top 10 food
 
 https://www.bbc.com/zhongwen/simp/science-43501164
 
-
-https://www.cut-the-knot.org/pythagoras/
-
 how to communicate,  0:21-8:50 , please check, it is real life.
 
 https://www.youtube.com/watch?v=xaLeKaiTs8w
+
+##############################################################################################
+
+https://www.cut-the-knot.org/pythagoras/
 
 math,  USA
 
@@ -245,3 +251,5 @@ https://www.youtube.com/watch?v=yzw0fz_mP8o
 【初中生能看懂的微积分】入门篇
 
 https://www.youtube.com/watch?v=DujzjNYLheg&list=PLMIRAndzh-_WY2BoUnxctrXHXMBnQK3Ts
+
+######################################################################################################
