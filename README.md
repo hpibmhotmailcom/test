@@ -1,3 +1,15 @@
+network, windows ,good, entry
+
+https://www.bilibili.com/video/BV1DAyAYCE4M/?spm_id_from=333.788.recommend_more_video.8&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+https://www.bilibili.com/video/BV1ice8eWEb1/?spm_id_from=333.788.recommend_more_video.1&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+windows
+
+https://www.bilibili.com/video/BV1bS421R74D?spm_id_from=333.788.recommend_more_video.1&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+
+
 首套PowerShell编程全方位深度培训 零基础到高级实战的综合课程与实际项
 
 https://www.bilibili.com/video/BV1Ax421k7Rn/?vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
