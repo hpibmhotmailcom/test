@@ -8,7 +8,13 @@ windows
 
 https://www.bilibili.com/video/BV1bS421R74D?spm_id_from=333.788.recommend_more_video.1&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
 
+你真的了解【Windows操作系统】, 注册表
 
+https://www.bilibili.com/video/BV1Jg63YTEYK/?spm_id_from=333.337.search-card.all.click&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
+
+从来没有人把操作系统讲的这么细！windows操作系统从入门到精通！
+
+https://www.bilibili.com/video/BV1byhqe4E6Y?spm_id_from=333.788.recommend_more_video.17&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
 
 首套PowerShell编程全方位深度培训 零基础到高级实战的综合课程与实际项
 
