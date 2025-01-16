@@ -1,3 +1,7 @@
+teribble mother, just go to university,do not care about details
+
+https://www.wenxuecity.com/blog/202303/79452/11046.html
+
 network, windows ,good, entry
 
 https://www.bilibili.com/video/BV1DAyAYCE4M/?spm_id_from=333.788.recommend_more_video.8&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
