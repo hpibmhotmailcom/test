@@ -119,6 +119,10 @@ https://www.youtube.com/watch?v=HaC6RyCIsrI
 
 https://www.youtube.com/watch?v=iUnHdoq-dlE&ab_channel=%E6%95%B0%E5%AD%A6%E4%BA%91%E8%AF%BE%E5%A0%82
 
+角平分线长公式
+
+https://baike.baidu.com/item/%E8%A7%92%E5%B9%B3%E5%88%86%E7%BA%BF%E9%95%BF%E5%85%AC%E5%BC%8F/6819054
+
 等边三角形中，求三等分线相交所成的线段长 
 
 https://www.sohu.com/a/547058299_120589180
