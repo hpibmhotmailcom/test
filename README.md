@@ -111,6 +111,12 @@ https://www.youtube.com/watch?v=0RsbHJcHQ38
 
 https://www.youtube.com/watch?v=WBbYFv7yS28
 
+CeWA  THOROME    stewart
+
+https://www.youtube.com/watch?v=ECu1gZut2po&ab_channel=MathsSmart
+
+https://www.youtube.com/watch?v=OyLmPjnAIPI&ab_channel=PreMath
+
 长沙中考几何压轴，如何不用余弦定理求出对角线的长？
 
 https://www.youtube.com/watch?v=HaC6RyCIsrI
