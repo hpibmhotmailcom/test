@@ -113,7 +113,11 @@ https://www.youtube.com/watch?v=WBbYFv7yS28
 
 CeWA  THOROME    stewart
 
+https://www.youtube.com/watch?v=MJ-lTGwtL5M&ab_channel=3Y
+
 https://www.youtube.com/watch?v=ECu1gZut2po&ab_channel=MathsSmart
+
+https://www.youtube.com/watch?v=jgFhi-KTRSQ&ab_channel=AustinMath
 
 https://www.youtube.com/watch?v=OyLmPjnAIPI&ab_channel=PreMath
 
