@@ -1,79 +1,3 @@
-teribble mother, just go to university,do not care about details
-
-https://www.wenxuecity.com/blog/202303/79452/11046.html
-
-network, windows ,good, entry
-
-https://www.bilibili.com/video/BV1DAyAYCE4M/?spm_id_from=333.788.recommend_more_video.8&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-https://www.bilibili.com/video/BV1ice8eWEb1/?spm_id_from=333.788.recommend_more_video.1&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-windows
-
-https://www.bilibili.com/video/BV1bS421R74D?spm_id_from=333.788.recommend_more_video.1&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-你真的了解【Windows操作系统】, 注册表
-
-https://www.bilibili.com/video/BV1Jg63YTEYK/?spm_id_from=333.337.search-card.all.click&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-从来没有人把操作系统讲的这么细！windows操作系统从入门到精通！
-
-https://www.bilibili.com/video/BV1byhqe4E6Y?spm_id_from=333.788.recommend_more_video.17&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-首套PowerShell编程全方位深度培训 零基础到高级实战的综合课程与实际项
-
-https://www.bilibili.com/video/BV1Ax421k7Rn/?vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-###########################################################################################################
-
-piano oct 9  home
-
-https://www.youtube.com/watch?v=Qj0GVrrGswc
-
-marriage dream
-
-https://www.youtube.com/watch?v=5BN-LEAS4r8
-
-sky city（short,long,complicated)
-
-https://www.youtube.com/watch?v=4hbNOEizzhA
-
-https://www.youtube.com/watch?v=dPX1BiCXu8s
-
-https://www.youtube.com/watch?v=5wt-mUgT2KE
-
-river flow, canon C
-
-https://www.youtube.com/watch?v=hIRiV-KVyLY
-
-https://www.youtube.com/watch?v=h2MZWPOoY6I
-
-turkey 
-
-https://www.youtube.com/watch?v=Y1ZAKcACoXM
-
-######################################################################################################
-
-function oct 10 office   
-https://www.bilibili.com/video/BV1QN4y1c7RQ/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-https://www.bilibili.com/video/BV1VG4y1H7WB/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-https://www.bilibili.com/video/BV1SK411G72L/?spm_id_from=333.788.recommend_more_video.0&vd_source=fd7d062fcc2c5a3e7c9b8640b83df661
-
-#################################################################################################
-
-civilazation
-
-https://www.youtube.com/watch?v=-uRZAgCGhCY&ab_channel=ThinkingWest
-
-top 10 food
-
-https://www.bbc.com/zhongwen/simp/science-43501164
-
-how to communicate,  0:21-8:50 , please check, it is real life.
-
-https://www.youtube.com/watch?v=xaLeKaiTs8w
 
 ##############################################################################################
 
@@ -245,6 +169,8 @@ https://www.youtube.com/watch?v=cfyLQf-izI4
 【數學競賽】三角形的九點圓            so easy!!!
 
 https://www.youtube.com/watch?v=hWYoNwNmG4w
+
+#################################################################################################################
 
 史上最入門的方式講解：到底什麽是量子？量子從何而來？| 超基礎、新人友好
 
