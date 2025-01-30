@@ -8,6 +8,14 @@ https://www.youtube.com/watch?v=mWXrZjA-4vk&list=PL8d4AlOg3PEZcNCyzrhVWHY3j4sjx9
 
 https://www.youtube.com/watch?v=u6lDFAM6W08&list=PLKFLYnRlDVa9VAlDs7WcLGXIeIDeM84V7
 
+math,compete
+
+https://www.youtube.com/watch?v=-hcSyzlZK-c&list=PL_ZfIM0NfDDGGtcfv6LCFkileTPwpeoxp
+
+geometry
+
+https://www.youtube.com/watch?v=lTFbDXcZsMw&list=PL_ZfIM0NfDDGLXOSIGvu6E-ltKC_XCmZy
+
 ##############################################################################################
 
 https://www.cut-the-knot.org/pythagoras/
