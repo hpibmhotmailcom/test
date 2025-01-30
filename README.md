@@ -1,10 +1,12 @@
 
 
-火星课堂, 初中数学竞赛题,channle on youtube
+火星课堂, 初中数学竞赛题,MathsSmart,channle on youtube
 
 https://www.youtube.com/watch?v=ZDETu8xaLoM&list=PLwahUCppDh88v1IO_sCkCDVE-SfHtNWOH
 
 https://www.youtube.com/watch?v=mWXrZjA-4vk&list=PL8d4AlOg3PEZcNCyzrhVWHY3j4sjx9qcq&index=4
+
+https://www.youtube.com/watch?v=u6lDFAM6W08&list=PLKFLYnRlDVa9VAlDs7WcLGXIeIDeM84V7
 
 ##############################################################################################
 
