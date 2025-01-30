@@ -1,4 +1,11 @@
 
+
+火星课堂, 初中数学竞赛题,channle on youtube
+
+https://www.youtube.com/watch?v=ZDETu8xaLoM&list=PLwahUCppDh88v1IO_sCkCDVE-SfHtNWOH
+
+https://www.youtube.com/watch?v=mWXrZjA-4vk&list=PL8d4AlOg3PEZcNCyzrhVWHY3j4sjx9qcq&index=4
+
 ##############################################################################################
 
 https://www.cut-the-knot.org/pythagoras/
