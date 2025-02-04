@@ -1,4 +1,11 @@
 
+RFC Requirements for IPv6 Address Representation
+
+    Leading 0s MUST be removed
+        This - 2001 : 0db8 : 0000 : 0001 : 0f2a : 4fff : fea3 : 00b1
+        Becomes - 2001 : db8 : 0 : 1 : f2a : 4fff : fea3 : b1
+
+
 
 
 ![image](https://github.com/user-attachments/assets/a8335386-2285-4bef-98cb-1bf9494300e2)
