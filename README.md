@@ -1,5 +1,9 @@
 
 
+![image](https://github.com/user-attachments/assets/ea36ed42-7a56-41c7-93ff-6f2daac88c56)
+
+
+
 火星课堂, 初中数学竞赛题,MathsSmart,channle on youtube
 
 https://www.youtube.com/watch?v=ZDETu8xaLoM&list=PLwahUCppDh88v1IO_sCkCDVE-SfHtNWOH
