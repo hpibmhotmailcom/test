@@ -1,14 +1,6 @@
 
-- RFC Requirements for IPv6 Address Representation
-
-    Leading 0s MUST be removed
-        This - 2001 : 0db8 : 0000 : 0001 : 0f2a : 4fff : fea3 : 00b1
-        Becomes - 2001 : db8 : 0 : 1 : f2a : 4fff : fea3 : b1
 
 
-
-
-![image](https://github.com/user-attachments/assets/a8335386-2285-4bef-98cb-1bf9494300e2)
 
 
 
@@ -67,6 +59,14 @@ https://www.youtube.com/watch?v=0RsbHJcHQ38
 https://www.youtube.com/watch?v=WBbYFv7yS28
 
 CeWA  THOROME    stewart
+
+
+![image](https://github.com/user-attachments/assets/6e0c838f-4dd0-417f-990d-039400ed6725)
+
+![image](https://github.com/user-attachments/assets/f585d636-372c-4e04-8151-604530dad338)
+
+![image](https://github.com/user-attachments/assets/7cecaa57-e435-4591-bd41-17c90eb0653c)
+
 
 https://www.youtube.com/watch?v=MJ-lTGwtL5M&ab_channel=3Y
 
@@ -149,18 +149,6 @@ https://www.youtube.com/watch?v=Jw2l6Rn2ekQ
 获得e的本质：从自然常数e到微积分的y'=y    easy picture
 
 https://www.youtube.com/watch?v=geJ7TH1KsjM
-
-
-**Nike x Central Cee Tech Fleece Tracksuit**  
-
-- Size: Large Only  
-- Full Tracksuit: $270  
-- Jacket: $160
-- Pants: $110
-
-Limited availability. 
-
-Meetups at Fairview Mall. 
 
 
 A Very Nice Geometry Problem | You should be able to solve this! | 3 Different Methods
