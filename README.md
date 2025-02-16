@@ -1,8 +1,8 @@
 
 
+高中物理  animation
 
-
-
+https://www.youtube.com/watch?v=7q8BsqrqUVw&list=PLR1ACzwrLF_1W1nOT0-0WI51VsufIWO3C
 
 火星课堂, 初中数学竞赛题,MathsSmart,channle on youtube
 
