@@ -1,0 +1,415 @@
+--------------------------------------------------------------------------------------------------------
+### IMPLEMENTATION PLAN 
+--------------------------------------------------------------------------------------------------------
+
+### BEGIN
+
+@SAN-ICPS TEAM - BREAK/DISABLE replication FROM Gough (PROD) to Barrie (DR) at beginning of Change Window prior UNIX Tasks.
+
+@UNIX TEAM:
+@CGSAVIFSETLHA
+
+--------------------------------------------------------------------------
+# PREP - BACKUP Part
+--------------------------------------------------------------------------
+
+1. Make sure you have Identified the Source Disks and the Target Disks and each disk usage. [ Attached Spreadsheet ]
+
+2. Create NEW NIM mksysb OS backup
+@NIM
+
+/scripts/nim/mk_res_mksysb.sh CGSAVIFSETLHA
+
+3. Create NEW alt_disk_install OS Instance in Server [ Can be created in NEW Disk instead of OLD to reduce Time ]
+
+NEWALTDSK="hdisk29"
+OLDALTDSK=$(lspv | grep altinst | awk '{print $1}')
+lspv | grep altinst
+
+alt_disk_install -X
+alt_disk_install -BC $NEWALTDSK
+alt_disk_install -W $NEWALTDSK
+alt_disk_install -S
+
+---------------------------------------------------------------------------
+4. Migrate/Mirror OS Volume Group [ rootvg ]
+---------------------------------------------------------------------------
+
+# Set Variables:
+VGNAME="rootvg"
+NEWROOTVG="hdisk28"
+OLDROOTVG="hdisk11"
+
+# MIRROR rootvg to NEW Disk and check Sync:
+   mirrorvg -S rootvg $NEWROOTVG
+   lsvg rootvg; lsvg -l rootvg
+
+# MOVE the dumplv to the new disk [By default, the dump device, lg_dumplv, is the only logical volume that is not mirrored]:
+
+Step 1: To determine lg_dumplv device present on which disk
+  lslv -l lg_dumplv
+Step 2: Check whether sysdump is configured as primary or secondary
+  sysdumpdev -l
+Step 3: Lets assume system dump configured as primrary, then set primary to "sysdumpnull"
+  sysdumpdev -Pp /dev/sysdumpnull
+Step 4: Moving the lg_dumplv from OLD disk to NEW disk
+  migratepv -l lg_dumplv $OLDROOTVG $NEWROOTVG
+Step 5: Change back primary to dumplv
+  sysdumpdev -Pp /dev/lg_dumplv
+Step 6: Check
+  sysdumpdev -l
+   
+# Unmirror rootvg from OLD disks:
+   
+unmirrorvg rootvg $OLDROOTVG
+reducevg rootvg $OLDROOTVG   
+   
+# Initialize the boot record on the new disk, run the following:
+   bosboot -ad /dev/$NEWROOTVG
+# Add the new disk to the bootlist, and check:
+   bootlist -m normal $NEWROOTVG
+   bootlist -m normal -o
+   ipl_varyon -i | grep YES
+
+---------------------------------------------------------------------------
+5. Migrate/Mirror Non-OS Volume Group in Background [ etlha01vg ]
+---------------------------------------------------------------------------
+
+# Set Variables:
+VGNAME="etlha01vg"
+NEWDISKS="hdisk30 hdisk27 hdisk31"
+OLDDISKS="hdisk12 hdisk13 hdisk3"
+
+# Extend and Mirror VG in Background
+extendvg $VGNAME $NEWDISKS
+mirrorvg -S $VGNAME $NEWDISKS
+
+# Check SYNC Status
+lsvg $VGNAME | grep STALE
+lsvg -l $VGNAME
+
+# ONCE VG IS IN SYNC, unmirror from OLD DISKS:
+unmirrorvg $VGNAME $OLDDISKS
+
+# REMOVE OLD Disk from VG:
+reducevg $VGNAME $OLDDISKS
+
+
+@MLISGIFSFIR
+
+--------------------------------------------------------------------------
+# PREP - BACKUP Part
+--------------------------------------------------------------------------
+
+1. Make sure you have Identified the Source Disks and the Target Disks and each disk usage. [ Attached Spreadsheet ]
+
+2. Create NEW NIM mksysb OS backup
+@NIM
+
+/scripts/nim/mk_res_mksysb.sh MLISGIFSFIR
+
+3. Create NEW alt_disk_install OS Instance in Server [ Can be created in NEW Disk instead of OLD to reduce Time ]
+
+NEWALTDSK="hdisk30"
+OLDALTDSK=$(lspv | grep altinst | awk '{print $1}')
+lspv | grep altinst
+
+alt_disk_install -X
+alt_disk_install -BC $NEWALTDSK
+alt_disk_install -W $NEWALTDSK
+alt_disk_install -S
+
+---------------------------------------------------------------------------
+4. Migrate/Mirror OS Volume Group [ rootvg ]
+---------------------------------------------------------------------------
+
+
+# Set Variables:
+VGNAME="rootvg"
+NEWROOTVG="hdisk29"
+OLDROOTVG="hdisk6"
+
+# MIRROR rootvg to NEW Disk and check Sync:
+   mirrorvg -S rootvg $NEWROOTVG
+   lsvg rootvg; lsvg -l rootvg
+
+# MOVE the dumplv to the new disk [By default, the dump device, lg_dumplv, is the only logical volume that is not mirrored]:
+
+Step 1: To determine lg_dumplv device present on which disk
+  lslv -l lg_dumplv
+Step 2: Check whether sysdump is configured as primary or secondary
+  sysdumpdev -l
+Step 3: Lets assume system dump configured as primary, then set primary to "sysdumpnull"
+  sysdumpdev -Pp /dev/sysdumpnull
+Step 4: Moving the lg_dumplv from OLD disk to NEW disk
+  migratepv -l lg_dumplv $OLDROOTVG $NEWROOTVG
+Step 5: Change back primary to dumplv
+  sysdumpdev -Pp /dev/lg_dumplv
+Step 6: Check
+  sysdumpdev -l
+   
+# Unmirror rootvg from OLD disks:
+   
+unmirrorvg rootvg $OLDROOTVG
+reducevg rootvg $OLDROOTVG   
+   
+# Initialize the boot record on the new disk, run the following:
+   bosboot -ad /dev/$NEWROOTVG
+# Add the new disk to the bootlist, and check:
+   bootlist -m normal $NEWROOTVG
+   bootlist -m normal -o
+   ipl_varyon -i | grep YES
+
+---------------------------------------------------------------------------
+5. Migrate/Mirror Non-OS Volume Group in Background [ tagp01vg ]
+---------------------------------------------------------------------------
+
+# Set Variables:
+VGNAME="tagp01vg"
+NEWDISKS="hdisk35 hdisk31 hdisk32 hdisk33"
+OLDDISKS="hdisk15 hdisk16 hdisk17 hdisk3"
+
+# Extend and Mirror VG in Background
+extendvg $VGNAME $NEWDISKS
+mirrorvg -S $VGNAME $NEWDISKS
+
+# Check SYNC Status
+lsvg $VGNAME | grep STALE
+lsvg -l $VGNAME
+
+# ONCE VG IS IN SYNC, unmirror from OLD DISKS:
+unmirrorvg $VGNAME $OLDDISKS
+
+# REMOVE OLD Disk from VG:
+reducevg $VGNAME $OLDDISKS
+
+---------------------------------------------------------------------------
+6. Migrate GPFS Cluster Disks: [ MLISGIFSFIR-CGSAVIFSETLHA ]
+---------------------------------------------------------------------------
+
+@MLISGIFSFIR-CGSAVIFSETLHA
+
+0. If not already done, SAN Storage Team assign/map new Lun from NEW Storage shared between both nodes [DONE]
+
+0. If not already done, Discover the new hdiskXX disks in the Servers [DONE]
+
+# NEXT Only executed in one node [Will be propagated in both nodes]:
+
+@MLISGIFSFIR
+
+### BEGIN GPFS Procedure
+
+1. Create a disk descriptor file (StanzaFile) for the newly "discovered" disks to be added, in a temporary file. Ex: /tmp/pwdpDisk2Add.txt
+
+1.1 Verify the current disks to identify the naming convention to be used and make sure there is no mismatch:
+mmlsnsd
+
+1.2 Create the stanza file to be used: 
+## Ex:
+%nsd:
+  device=/dev/hdiskXX
+  nsd=pdwp11
+  servers=cgsavifsetlha-gpfs,mlisgifsfir-gpfs
+  usage=dataAndMetadata
+  failureGroup=-1
+  pool=system
+%nsd:
+  device=/dev/hdiskXX
+  nsd=pdwp12
+  servers=cgsavifsetlha-gpfs,mlisgifsfir-gpfs
+  usage=dataAndMetadata
+  failureGroup=-1
+  pool=system
+....
+
+FILE ALREADY CREATED/PREPARED: /home/vilasmi/GPFSMigrationDisks.txt [DONE]
+
+2. Use the mmcrnsd command to create the NSD:
+
+mmcrnsd -F /home/vilasmi/GPFSMigrationDisks.txt
+
+3. Verify the disk has been created using the mmlsnsd command
+
+mmlsnsd
+
+[The disk you just added should show as a (free disk)]
+
+4. Add the new NSD to the pdwp file system using the mmadddisk command
+
+mmadddisk pdwp -F /home/vilasmi/GPFSMigrationDisks.txt
+
+[CONFIRM the new disk are added to the filesystem and READY: ]
+
+mmlsdisk pdwp
+
+5. [DELETE OLD DISKS FROM GPFS FILESYSTEM][MIGRATE DATA//REBALANCE DATA TO THE NEW DISKS]
+
+Ex:
+mmdeldisk pdwp pdwpXX -r [Default] [Restripe and Rebalance across Existing/NEW Disks ]
+mmdeldisk pdwp pdwpXX -m [Does minimal data copying to preserve any data that is located only on the disks being removed] [Fastest]
+or multiple disks:
+mmdeldisk pdwp "pdwpXX;pdwpXX;pdwpXX..." -m
+
+Both options might be I/O Intensive. We don't know which is the better option in this scenario [].
+
+[ OPTION 1 IN 1 command ]
+
+Using Default option one at a time:
+mmdeldisk pdwp pdwp10 -r
+mmdeldisk pdwp pdwp09 -r
+mmdeldisk pdwp pdwp08 -r
+mmdeldisk pdwp pdwp07 -r
+mmdeldisk pdwp pdwp06 -r
+mmdeldisk pdwp pdwp05 -r
+mmdeldisk pdwp pdwp04 -r
+mmdeldisk pdwp pdwp03 -r
+mmdeldisk pdwp pdwp02 -r
+mmdeldisk pdwp pdwp01 -r
+mmdeldisk pdwp pdwp00 -r
+
+[ OPTION 2 in 3 steps ]
+
+a. Suspend/empty the disks that need to be removed or replaced by using the mmchdisk command.
+
+mmchdisk pdwp empty -d pdwp10
+mmchdisk pdwp empty -d pdwp09
+mmchdisk pdwp empty -d pdwp08
+mmchdisk pdwp empty -d pdwp07
+mmchdisk pdwp empty -d pdwp06
+mmchdisk pdwp empty -d pdwp05
+mmchdisk pdwp empty -d pdwp04
+mmchdisk pdwp empty -d pdwp03
+mmchdisk pdwp empty -d pdwp02
+mmchdisk pdwp empty -d pdwp01
+mmchdisk pdwp empty -d pdwp00
+
+b. Restripe (Move) of the data to the New Disks: 
+[This command will move the data from the 'to be emptied' disks and onto the 'ready' disks.]
+"mmrestripefs <filesystem> -m"
+
+mmrestripefs pdwp -m
+
+c. Finally, use the mmdeldisk command to remove the disks, which should by now be empty:
+
++Check:
+mmlsdisk pdwp
+
++Delete:
+mmdeldisk pdwp pdwp10
+mmdeldisk pdwp pdwp09
+mmdeldisk pdwp pdwp08
+mmdeldisk pdwp pdwp07
+mmdeldisk pdwp pdwp06
+mmdeldisk pdwp pdwp05
+mmdeldisk pdwp pdwp04
+mmdeldisk pdwp pdwp03
+mmdeldisk pdwp pdwp02
+mmdeldisk pdwp pdwp01
+mmdeldisk pdwp pdwp00
+
+NOTE: Reconfigure tiebreakerdisk before deletion if OPTION 2:
+mmchconfig tiebreakerDisks="pdwp14;pdwp15;pdwp16" 
+
+
+6. [ RECONFIGURE TIEBREAKER DISKS ] 
+If one of the disks that you deleted was the tie breaker disk for the cluster, you need to configure a new one. 
+Configure tiebreakerdisks using the NEW Storage Disks assigned:
+
+mmchconfig tiebreakerDisks="pdwp14;pdwp15;pdwp16"
+
+6. [DELETE DISK FROM SERVER]
+
+#List to identify the free disks: [Must be the OLD ones]
+mmlsnsd
+mmlsdisk pdwp
+
+#Delete NSD:
+mmdelnsd -p <NSD volume ID>
+
+mmdelnsd -p pdwp10
+mmdelnsd -p pdwp09
+mmdelnsd -p pdwp08
+mmdelnsd -p pdwp07
+mmdelnsd -p pdwp06
+mmdelnsd -p pdwp05
+mmdelnsd -p pdwp04
+mmdelnsd -p pdwp03
+mmdelnsd -p pdwp02
+mmdelnsd -p pdwp01
+mmdelnsd -p pdwp00
+
+#Remove Disks from OS
+rmdev -dl hdiskXX
+
+### END OF GPFS PROCEDURE
+
+### START OUTAGE ###
+ 
+1. MANULIFE STOP
+2. REBOOT SERVERS
+3. MANULIFE START
+ 
+### END OUTAGE ###
+
+---------------------------------------------------------------------------
+7. REMOVE OLD DISKS FROM SYSTEM:
+---------------------------------------------------------------------------
+@MLISGIFSFIR:
+
+# VERIFY OLD disks are now not assigned anymore to any VG:
+for disk_var in $(lsdev -Ccdisk | grep "2810 XIV Disk" | awk '{print $1}') 
+do
+  lspv | grep -w $disk_var
+done
+
+# REMOVE OLD Disks:
+rmdev -dl <disk_name>
+
+OR:
+
+for disk_var in $(lsdev -Ccdisk | grep "2810 XIV Disk" | awk '{print $1}') 
+do
+  rmdev -dl $disk_var
+done
+
+
+@CGSAVIFSETLHA: 
+
+# VERIFY OLD disks are now not assigned anymore to any VG:
+for disk_var in $(lsdev -Ccdisk | grep "2810 XIV Disk" | awk '{print $1}') 
+do
+  lspv | grep -w $disk_var
+done
+
+# REMOVE OLD Disks:
+rmdev -dl <disk_name>
+
+OR:
+
+for disk_var in $(lsdev -Ccdisk | grep "2810 XIV Disk" | awk '{print $1}') 
+do
+  rmdev -dl $disk_var
+done
+
+
+@SAN/ICPS TEAM - UNMAP/REMOVE the old disks from the Server
+
+### START DR TESTING PART ###
+
+0. [ICPS] - Validate/Confirm 100% sync Global Mirror replication between the source (MLISGIFSFIR/CGSAVIFSETLHA) and destination (CLSAVIFSETLDR)
+1. [ICPS] - Terminate Global Mirror replication between the source (MLISGIFSFIR/CGSAVIFSETLHA) and destination (CLSAVIFSETLDR)
+2. [ICPS] - Map Replicated Luns in DR server CLSAVIFSETLDR
+3. [UNIX] - Configure Luns and Reconfigured GPFS in DR Server CLSAVIFSETLDR
+4. [UNIX] - Import and activate GPFS Subsystem/Filesystem on CLSAVIFSETLDR
+5. [UNIX] - Mount GPFS filesystems on DR Server CLSAVIFSETLDR
+6. [UNIX] - Quick validation of integrity of replicated storage on the target server (VGs, FileSystems)
+7. [UNIX] - Unmount/Deactivate GPFS Subsystem/Filesystem from DR server CLSAVIFSETLDR
+8. [UNIX] - Remove Replicated Luns from DR Server CLSAVIFSETLDR
+9. [ICPS] - Unmap Replicated Luns from the DR Server CLSAVIFSETLDR
+10.[ICPS] - Resume Global Mirror replication between the source (MLISGIFSFIR/CGSAVIFSETLHA) and destination (CLSAVIFSETLDR)
+
+### END DR TESTING PART ###
+
+@SAN/ICPS TEAM - ENABLE replication FROM Gough (PROD) to Barrie (DR) at END of Change Window after UNIX Tasks. [LUNs in NEW Storage]
+
+### END
